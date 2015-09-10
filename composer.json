@@ -1,0 +1,21 @@
+{
+    "name": "your-name-here/VideoManager",
+    "description": "VideoManager plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.4.16",
+        "mpratt/embera": "~1.0",
+        "mswagencia/photo-gallery": ">=1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "VideoManager\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "VideoManager\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
