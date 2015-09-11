@@ -1,5 +1,5 @@
 {
-    "name": "your-name-here/VideoManager",
+    "name": "mswagencia/video-manager",
     "description": "VideoManager plugin for CakePHP",
     "type": "cakephp-plugin",
     "require": {
