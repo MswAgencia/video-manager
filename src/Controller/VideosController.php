@@ -34,7 +34,7 @@ class VideosController extends AppController
 
     public function manage($id)
     {
-        $gallery = $this->Galleries->getGallery($id);
+        $gallery = $this->Galleries->get($id);
         $videos = $this->Videos->getVideosFromGallery($gallery->id);
         $this->set('gallery', $gallery);
         $this->set('videos', $videos);
